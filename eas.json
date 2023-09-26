@@ -1,30 +1,29 @@
 {
   "cli": {
-    "version": ">= 0.51.0",
-    "promptToConfigurePushNotifications": false
+    "version": ">= 3.5.2"
   },
   "build": {
     "development": {
+      "developmentClient": true,
       "distribution": "internal",
-      "android": {
-        "gradleCommand": ":app:assembleDebug"
-      },
       "ios": {
-        "buildConfiguration": "Debug"
+        "resourceClass": "m1-medium"
       }
     },
     "preview": {
-      "distribution": "internal"
+      "distribution": "internal",
+      "ios": {
+        "resourceClass": "m1-medium"
+      }
     },
-    "production": {}
-  },
-  "submit": {
     "production": {
       "ios": {
-        "appleId": "chetan.singh@smec.com",
-        "ascAppId": "1668624667",
-        "appleTeamId": "KM8825JULH"
+        "resourceClass": "m1-medium"
       }
     }
+  },
+  "submit": {
+    "production": {}
   }
+  
 }

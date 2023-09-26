@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "PMIS App",
-    "slug": "PMIS_App_HORC",
-    "version": "1.0.0",
+    "name": "Nagaland Household",
+    "slug": "nagaland_household",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/picture.png",
     "userInterfaceStyle": "automatic",
@@ -23,32 +23,36 @@
         {
           "iCloudContainerEnvironment": "Production"
         }
-        
-      ],[
+      ],
+      [
         "expo-location",
         {
           "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location."
         }
-        
       ]
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.smec.pmisPEDOApp"
+      "bundleIdentifier": "com.smec.household"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/picture.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.smec.pmisPedoApp"
+      "package": "com.smec.household",
+      "permissions": [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.FOREGROUND_SERVICE"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "90a0d2f6-5558-498b-8c79-0a57e05c8862"
+        "projectId": "b347b3f0-aaea-4b28-ada7-65d8d6eaa0c1"
       }
     }
   }
