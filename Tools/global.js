@@ -5,8 +5,7 @@ global.email = "0";
 global.supervisor_name = "0";
 global.isHouseSurveyor = "0";
 
-//global.IpAddress = "https://sacaapps.com:2053/Nagaland/nagaland_api";
-global.IpAddress = "http://172.16.10.69/Nagaland/nagaland_api";
+global.IpAddress = "http://example.com/example/example_api";
 
 global.Login = global.IpAddress + "/Login.php";
 global.GeneralEntry = global.IpAddress + "/GeneralEntry.php";
