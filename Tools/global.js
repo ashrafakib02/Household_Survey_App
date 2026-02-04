@@ -7,18 +7,18 @@ global.isHouseSurveyor = "0";
 
 global.IpAddress = "http://example.com/example/example_api";
 
-global.Login = global.IpAddress + "/Login.php";
-global.GeneralEntry = global.IpAddress + "/GeneralEntry.php";
-global.HouseholdEntry = global.IpAddress + "/HouseholdEntry.php";
-global.GenEcoEntry = global.IpAddress + "/GenEcoEntry.php";
-global.GenHealthEntry = global.IpAddress + "/GenHealthEntry.php";
-global.WaterSupplyApi = global.IpAddress + "/WaterSupplyApi.php";
-global.DrainageApi = global.IpAddress + "/DrainageApi.php";
-global.WasteWaterApi = global.IpAddress + "/WasteWaterApi.php";
-global.SolidWasteApi = global.IpAddress + "/SolidWasteApi.php";
-global.TransportApi = global.IpAddress + "/TransportApi.php";
-global.ParkApi = global.IpAddress + "/ParkApi.php";
-global.OtherApi = global.IpAddress + "/OtherApi.php";
-global.DocUploadApi = global.IpAddress + "/DocUploadApi.php";
+global.Login = global.IpAddress + "/example.php";
+global.GeneralEntry = global.IpAddress + "/example.php";
+global.HouseholdEntry = global.IpAddress + "/example.php";
+global.GenEcoEntry = global.IpAddress + "/example.php";
+global.GenHealthEntry = global.IpAddress + "/example.php";
+global.WaterSupplyApi = global.IpAddress + "/example.php";
+global.DrainageApi = global.IpAddress + "/example.php";
+global.WasteWaterApi = global.IpAddress + "/example.php";
+global.SolidWasteApi = global.IpAddress + "/example.php";
+global.TransportApi = global.IpAddress + "/example.php";
+global.ParkApi = global.IpAddress + "/example.php";
+global.OtherApi = global.IpAddress + "/example.php";
+global.DocUploadApi = global.IpAddress + "/example.php";
 
-global.FetchListData = global.IpAddress + "/FetchListData.php";
+global.FetchListData = global.IpAddress + "/example.php";
